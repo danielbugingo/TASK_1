@@ -1,0 +1,230 @@
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body { 
+	max-width: 1000px;
+	margin: 0;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 16px; 
+	font-family: 'Montserrat', sans-serif; 
+	background: #283048; /* fallback for old browsers */
+  	background: -webkit-linear-gradient(to top, #283048, #859398); /* Chrome 10-25, Safari 5.1-6 */
+  	background: linear-gradient(to top, #283048, #859398); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/* This styles both the navigation bar and the header part of the page. */
+
+header{
+	max-width: 100%;
+	background-color: #3a4454;
+	color: black;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px 15px  0px 15px;
+	overflow: hidden;
+	background: url(images/rsz_finger.png);
+	background-repeat: no-repeat;
+	line-height: 54px;
+	background-size: 100%
+
+}
+
+header h2 { 
+	font-family: 'Lucida Handwriting';
+	color: black;
+ }
+
+nav {
+	width: 1000px;
+	background-color: #222;
+	padding: 0px 15px;
+	vertical-align: center;
+
+}
+
+/*
+img {
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px 15px 0px 15px;
+	position: absolute;
+	border:none;
+}
+*/
+
+.nav-main { 
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	background-color: #1c3154;
+	height: 40px;
+	color: #f00;
+	float: right;
+	padding: 0px 15px 0px 15px;
+}
+
+.nav-main > ul {
+	margin: auto;
+	float: right;
+	list-style-type: none;
+	padding: 0px 15px 0px 15px; 
+}
+
+.nav-main > ul > li {
+	float: left;
+}
+
+.nav-item {
+	display: inline-block;
+	padding: 0px 15px;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav-item:hover {
+	background-color: #5890d0;
+	color: black;
+	font-weight: bold;
+}
+
+nav ul {
+	list-style: none;
+}
+
+.footer {
+	float: left;
+	margin-right: 5px;
+	background-color: transparent;
+	color: white;
+	text-decoration: none;
+}
+
+nav li {
+	float: left;
+	margin-right: 5px;
+	background-color: transparent;
+	color: white;
+}
+
+form#signup {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px; 
+	padding: 15px;
+	background: #5890d0 url(images/background.jpg) no-repeat 0px -70px;
+	background-size: 1000px;
+}
+
+hr {
+	padding: 0px;
+	margin:0px;
+}
+
+section{
+	max-width: 1000px;
+	background-color: #5890d0;
+	margin-right: auto;
+	margin-left: auto;
+	color: white;
+	padding: 5px;
+}
+
+.about {
+	max-width: 1000px;
+	background-color: #5890d0;
+	margin-right: auto;
+	margin-left: auto;
+	color: white;
+	padding: 5px;
+}
+
+form#signup h2 { margin: 0px; color: #fff; font-size: 2em; }
+
+form#signup h3 { margin: -5px 0px 12px 0px; color: #fff; font-size: 1.2em; }
+
+form#signup h4 { margin: 15px 0px 3px 0px; color: #fff; font-size: 1em; }
+
+form#signup p, form#signup label { 
+margin: 0px 0px 6px 0px; color: rgba(255,255,255,.8);
+}
+
+form#signup fieldset {
+	border: 1px solid rgba(255,255,255,.4)
+	margin: 15px 0px 15px 0px;
+	padding: 0px 10px 10px 20px;
+}
+
+input[type=submit]{
+	color: #c7d5db;
+	background-color: #1c3154;
+	width: 20%;
+	border:0 none;
+	border-radius: 10px;
+	line-height: 25px;
+	padding-top: none;
+	margin-top: 4px;
+	font-weight: bold;
+}
+
+.submit:hover{
+	color: #76b9fc;
+	background-color: #1c3854;
+	font-weight: bold;
+}
+
+footer{
+	max-width: 1000px;
+	background-color: #3a4454;
+	color: #5890d0;
+	margin-right: auto;
+	margin-left: auto;
+	height: 50px;
+	padding: 15px;
+}
+
+footer ul {
+	float: right;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.dan {
+	border-radius: 50%;
+	border: 1.5px solid #cccccc;
+  	object-fit: cover;
+
+ 	width: 200px;
+  	height: 200px;
+
+  	float: left;
+  	margin-left: 10px;
+  	padding: 2px;
+}
+
+/* This creates a drop shadow hover effect.*/
+.dan:hover {
+	box-shadow: inset 0px 0px 2px #a00;
+	--box-shadow-color: black;
+    box-shadow: 1px 2px 3px var(--box-shadow-color);
+
+.footer {
+	color: #5890d0;
+}
+
+.footer:hover {
+	color: white;
+}
+
+.skills_content {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	font-size:.8em;
+	background: #eeff99;
+	padding: 20px;
+	border: 1px solid #696;
+	border-radius: 20px;
+}
