@@ -6,58 +6,133 @@
 		<title>Design the Web</title>
 		<link rel="stylesheet" type="text/css" href="form.css">
 	</head>
-<body>
-	<header>
+<body background="D:\Learning Path\Nathan_1\TASK_1\images\background.png">
+	<header>s
 
 	  <hgroup>
 	    <h1>CYBER SOLUTIONS UGANDA</h1>
 	    <h2>Creating A Lasting Impression</h2>
 	  </hgroup>
 
-	  <nav class="nav-main">
+	</header>
+	<nav class="nav-main">
 	    <ul>
 	      <li><a class="nav-item" href="#">Home</a></li>
 	      <li><a class="nav-item" href="#">About</a></li>
-	      <li><a class="nav-item" href="#">Contact</a></li>
-	      <li><a class="nav-item" href="#skills">TECH EXPERIENCE</a></li>
-	      <li><a class="nav-item" href="form.html">Sign Up</a></li>
+	      <li><a class="nav-item" href="#contact">Contact</a></li>
+	      <li><a class="nav-item" href="#services">SERVICES</a></li>
+	      <li><a class="nav-item" href="#signup">Sign Up</a></li>
 	    </ul>
 	  </nav>
-
-	</header>
 	<div class="about">
 		<h1 align="center">About Content</h1>
 		<img class="dan" src="D:\Learning Path\Nathan_1\TASK_1\images\Dan_in_office.png">
-		<p>Hopefully you can see the issues surrounding HTML5 and CSS3 with regards to their support by various versions and vendors of web browsers and two different thought processes on how to incorporate HTML5 into your own work.</p>
+		<p>I’m a web developer and graphic designer living in Kampala, Uganda. I spend my days with my hands in many different areas of web development from back end programming  to front end engineering digital accessibility, user experience and visual design.</p>
 
-		<p>Hopefully you can see the issues surrounding HTML5 and CSS3 with regards to their support by various versions and vendors of web browsers and two different thought processes on how to incorporate HTML5 into your own work.</p>
+			<p>I’m extremely passionate about systems development and design in all it’s forms and helping small businesses and artisans build and improve their online presence. Aside from web development, I enjoy spending my time with my wife, sons, and daughter, brewing coffee, taking photos and playing & watching sports (Boxing, Basketball and Athletics to name a few).</p>
 
-		<p>Hopefully you can see the issues surrounding HTML5 and CSS3 with regards to their support by various versions and vendors of web browsers and two different thought processes on how to incorporate HTML5 into your own work.</p>
+			<p>While doing my work I always liverage a blend of the following technologies to to give my clients an exciting and lasting impression.</p>
 	</div>
 	<hr>
-	<section class="contact">
-		<h1>Contact Content</h1>
-		<p>Hopefully you can see the issues surrounding HTML5 and CSS3 with regards to their support by various versions and vendors of web browsers and two different thought processes on how to incorporate HTML5 into your own work.</p>
+
+	<div id="contact">
+		<form id="contactForm">
+			<h1>Drop Me a Message</h1>
+			<input id="formItems" type="text" placeholder="First_Name and Last_name" name="fullName" size="30">
+			<br>
+			<input id="formItems" type="email" placeholder="drone@globex.com" size="30" required
+           title="Must be a globex.com email address" name="email">
+           	<br>
+			<input id="formItems" type="phoneNumber" placeholder="Enter your Phone number" name="phoneNumber" size="30">
+			<br>
+			<textarea id="formItems" name="Message" rows="5" cols="40" ></textarea>
+			<br>
+			<input class="submit_btn" type="submit" name="SUBMIT">
+			<input class="submit_btn" type="reset" name="fdfffdfs">
+		</form>
+	
+	</div>
+	<hr>
+
+	<div class="services" id="services">
+		<h1 id="skills" align="center">SERVICES</h1>
+
+			<table style="width: 100%">
+				<th>Sytem Development</th><th>Penetration Testing</th><th>Data Back-up & Recovery</th>
+				<tr >
+					<td class="dev_icons" align="center">
+						<figure align="center">
+							<center><img class="dev_icon" src="D:\Learning 	Path\Nathan_1\TASK_1\images\dev_icon.png">
+							</center><br>
+							<figcaption class="caption">We leverage some of the best technologies to develope Apps that leave a lasting impression with our clients. This includes both Native and Web-based applications.</figcaption>
+						</figure>
+					</td>
+					<td class="penTestings" align="center">
+						<figure>
+							<img class="penTesting" src="D:\Learning 	Path\Nathan_1\TASK_1\images\penTesting.png">
+							<figcaption class="caption">
+								Penetration testing (also called pen testing) is the practice of testing a computer system, network or Web application to find vulnerabilities that an attacker could exploit.
+							</figcaption>
+						</figure>
+					</td>
+					<td align="dataBackUps" align="center">
+						<figure><center>
+							<img class="dataBackUp" src="D:\Learning 	Path\Nathan_1\TASK_1\images\dataBackUp4.png"></center>
+							<figcaption class="caption">
+								Data backup and Recovery is a form of disaster recovery and should be part of any disaster recovery plan. At Cyber Solutions we back-up data in case of a loss and setting up systems that allow that data recovery due to data loss.
+							</figcaption>
+						</figure>
+					</td>
+				</tr>
+			</table>
+		<aside id="aside"><i>
+			If you have a captive audience, the experience is a little different.  For example, In Windows 8, HTML5 developers can rely on Internet Explorer 10's expanded HTML5 support to build user interfaces that run as Metro-style applications utilizing the WinRT API.  In this case, you know for a fact where your HTML5 will be rendered and by whom, and you are free to use the full set of HTML5 features IE10 supports without having to worry about other browser vendors and version.
+		</i></aside>
+	</div>
+	<section class="signup">
+		
+		<form id="signup" method="post" action="#">
+
+			<h1>Sign Up</h1>
+			<h3>Our content, delivered on your terms.</h3>
+
+			<h4>Categories of interest</h4>
+			<input id="cat-d" type="checkbox" name="design"><label for="cat-d">App Development</label>
+			<br>
+			<input id="cat-h" type="checkbox" name="html-css"><label for="cat-h">Data Mining &amp; Visual Analytics</label>
+			<br>
+			<input id="cat-j" type="checkbox" name="js"><label for="cat-j">Pen-testing</label>
+			<br><br>
+
+			<fieldset>
+			
+				<legend>Delivery Options</legend>
+			
+				<h4>Choose a format</h4>
+				<input id="format-t" type="radio" name="format"><label for="format-t">Text Only</label>
+				<br>
+				<input id="format-h" type="radio" name="format"><label for="format-h">HTML (with images)</label>
+				
+				<h4>Choose a frequency</h4>
+				<select id="frequency">
+					<option value="daily">Daily</option>
+					<option value="weekly">Weekly</option>
+					<option value="monthly">Monthly</option>
+				</select>
+				<br>
+	
+				<h4>Comments</h4>
+				<textarea id="email" name="requests" rows="3" cols="30" placeholder="Please let us know what other options you'd like to have."></textarea>
+
+			</fieldset>
+
+			<h4>Email</h4>
+			<input id="email" type="text" size="45" placeholder="Enter your full email address">
+			<input class="submit" onclick="alert('Form submited, Thank you.')" type="submit" value="Sign me up">
+
+		</form>
 	</section>
 	<hr>
-	<div class="skills_content">
-		<h1 id="skills">Skills</h1>
-		
-			<p>I’m a web developer and graphic designer living in Kampala, Uganda.
-			I spend my days with my hands in many different areas of web development from 
-			back end programming  to front end engineering digital accessibility, 
-			user experience and visual design.</p>
-
-			<p>I’m extremely passionate about systems development and design in all it’s 
-			forms and helping small businesses and artisans build and improve their online 
-			presence. Aside from web development, I enjoy spending my time with my wife, 
-			sons, and daughter, brewing coffee, taking photos and playing & watching sports 
-			(Boxing, Basketball and Athletics to name a few).</p>
-
-			<p>While doing my work I always liverage a blend of the following technologies to 
-			to give my clients an exciting and lasting impression.</p>
-		
-	</div>
 	<footer>
 
 		<small>Copyright © 2018 DBug</small>
